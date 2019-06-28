@@ -1,12 +1,12 @@
 # The Harmonix Set
 
-Beats, Downbeats, and Structural Annotations for 912 Pop Tracks
+Beats, downbeats, and functional structural annotations for 912 Pop tracks.
 
-# Introduction
+## Introduction
 
 This repository contains human annotated labels for 912 Western Pop music tracks, gathered by [Harmonix](https://www.harmonixmusic.com/games).
 
-# Cite
+## Cite
 
 Please, cite the following paper if you're planning to publish results using this dataset:
 
