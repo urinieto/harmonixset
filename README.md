@@ -8,12 +8,19 @@ This repository contains human annotated labels for 912 Western Pop music tracks
 
 ## Data Overview
 
-The full dataset can be found in the [dataset folder](https://github.com/urinieto/harmonixset/tree/master/dataset), which contains the following:
+The full dataset can be found in the [dataset directory](https://github.com/urinieto/harmonixset/tree/master/dataset), which contains the following:
 
-* [beats_and_downbeats](https://github.com/urinieto/harmonixset/tree/master/dataset/beats_and_downbeats): Folder with a tab-separatted txt file for each file in the dataset, with the following three fields per line: 
-    - `beat_time_stamp`: The placement of the beat (and downbeat, if `beat_position_in_bar` = 1).
+* [beats_and_downbeats](https://github.com/urinieto/harmonixset/tree/master/dataset/beats_and_downbeats): Directory with a tab-separated file for each track in the dataset, with the following three fields per line containing beats and downbeats: 
+    - `beat_time_stamp`: The placement of the beat in seconds (and downbeat, if `beat_position_in_bar` = 1).
     - `beat_position_in_bar`: The number of beat within a bar (when 1, the beat also represents a downbeat).
     - `bar_number`: The number of the bar.
+* [segments](https://github.com/urinieto/harmonixset/tree/master/dataset/segments): Directory with a tab-separated file for each track in the dataset, with the following two fields per line containing segmentation data:
+    - `boundary_time_stamp`: The placement of a functional segmentation boundary in seconds.
+    - `label`: The label of the segment that starts on the current boundary.
+* [metadata.tsv](https://github.com/urinieto/harmonixset/blob/master/dataset/metadata.csv): Metadata of the Harmonix Set in a comma-separated file containing the following fields:
+    - *File*: File name, used to identify each of the tracks in the dataset.
+    - *Title*: Title of the track.
+    - TODO
 
 ## Experiment Results
 
@@ -21,7 +28,7 @@ You may find the raw results in the [results](https://github.com/urinieto/harmon
 
 ### Segmentation Results
 
-These results include song-level segmentation metrics for the entire dataset, using three different types of beat-syncrhonized Constant-Q Transform features:
+These results include song-level segmentation metrics for the entire dataset, using three different types of beat-synchronized Constant-Q Transform features:
 
 * [annot_beats.csv](https://github.com/urinieto/harmonixset/blob/master/results/segmentation/annot_beats.csv): Annotated beats from the Harmonix set.
 * [korz_beats.csv](https://github.com/urinieto/harmonixset/blob/master/results/segmentation/korz_beats.csv): Korzeniowski beats from [madmom](https://github.com/CPJKU/madmom).
