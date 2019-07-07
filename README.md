@@ -14,6 +14,21 @@ TODO
 
 You may find the raw results in the [results](https://github.com/urinieto/harmonixset/tree/master/results/) folder.
 
+### Segmentation Results
+
+These results include song-level segmentation metrics for the entire dataset, using three different types of beat-syncrhonized Constant-Q Transform features:
+
+* [annot_beats.csv](https://github.com/urinieto/harmonixset/blob/master/results/segmentation/annot_beats.csv): Annotated beats from the Harmonix set.
+* [korz_beats.csv](https://github.com/urinieto/harmonixset/blob/master/results/segmentation/korz_beats.csv): Korzeniowski beats from [madmom](https://github.com/CPJKU/madmom).
+* [librosa_beats.csv](https://github.com/urinieto/harmonixset/blob/master/results/segmentation/librosa_beats.csv): Beats computed using the default [librosa](https://github.com/librosa/librosa) beat tracker.
+
+These results were computed using the following libraries with their default parameters:
+
+* MSAF 0.1.8-dev
+* librosa 0.6.3
+* mir\_eval 0.5
+* madmom 0.16.1
+
 ## Additional Content
 
 A couple of Jupyter notebooks are also included:
