@@ -29,7 +29,7 @@ The full dataset can be found in the [dataset directory](https://github.com/urin
     - **Genre**: The music genre of the track.
     - **MusicBrainz Id**: The [MusicBrainz](https://musicbrainz.org/) identifier of the track.
     - **Acoustid Id**: The [AcoustID](https://acoustid.org/) identifier of the current track (when available).
-* [jams](https://github.com/urinieto/harmonixset/tree/master/dataset/jams): Directory containing [JAMS](https://github.com/marl/jams/) files, one per track, with beats, downbeats, segmentation, and metadata.
+* [jams](https://github.com/urinieto/harmonixset/tree/master/dataset/jams): Directory containing [JAMS](https://github.com/marl/jams/) files, one per track, with beats, downbeats, segmentation, and metadata (using JAMS version 0.3.3).
 
 ## Experiment Results
 
