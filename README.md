@@ -16,7 +16,7 @@ You may find the raw results in the [results](https://github.com/urinieto/harmon
 
 ## Additional Content
 
-There are a notebooks that contain the following:
+A couple of Jupyter notebooks are also included:
 
 * [Dataset Analysis](https://github.com/urinieto/harmonixset/blob/master/notebooks/Dataset%20Analysis.ipynb): The plots of the original publication [1] were produced using this notebook, which employs the results discussed above.
 * [JAMS Creation](https://github.com/urinieto/harmonixset/blob/master/notebooks/JAMS%20Creation.ipynb): This notebook was used to generate the JAMS files of the Harmonix Set.
