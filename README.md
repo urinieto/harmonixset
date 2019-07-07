@@ -8,7 +8,9 @@ This repository contains human annotated labels for 912 Western Pop music tracks
 
 ## Data Overview
 
-TODO
+The full dataset can be found in the [dataset folder](https://github.com/urinieto/harmonixset/tree/master/dataset), which contains the following:
+
+* [beats_and_downbeats](https://github.com/urinieto/harmonixset/tree/master/dataset/beats_and_downbeats): Folder with a tab-separatted txt file for each file in the dataset, with the following format per line: `beat_time_stamp \t beat_position_in_bar \t bar_number`.
 
 ## Experiment Results
 
