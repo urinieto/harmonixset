@@ -24,10 +24,10 @@ These results include song-level segmentation metrics for the entire dataset, us
 
 These results were computed using the following libraries with their default parameters:
 
-* MSAF 0.1.8-dev
-* librosa 0.6.3
-* mir\_eval 0.5
+* librosa 0.6.3 (on a macOS 10.13.6 with its default CoreAudio MP3 decoder)
 * madmom 0.16.1
+* mir\_eval 0.5
+* msaf 0.1.8-dev
 
 ## Additional Content
 
