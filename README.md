@@ -18,9 +18,18 @@ The full dataset can be found in the [dataset directory](https://github.com/urin
     - `boundary_time_stamp`: The placement of a functional segmentation boundary in seconds.
     - `label`: The label of the segment that starts on the current boundary.
 * [metadata.tsv](https://github.com/urinieto/harmonixset/blob/master/dataset/metadata.csv): Metadata of the Harmonix Set in a comma-separated file containing the following fields:
-    - *File*: File name, used to identify each of the tracks in the dataset.
-    - *Title*: Title of the track.
-    - TODO
+    - **File**: File name, used to identify each of the tracks in the dataset.
+    - **Title**: Title of the track.
+    - **Artist**: Name of the artist of the given track.
+    - **Release**: Name of the release (e.g., album, compilation, EP) where the track is found.
+    - **Duration**: Duration of the track in seconds.
+    - **BPM**: Beats per minute.
+    - **Ratio Bars in 4**: Percentage of bars that have 4 beats.
+    - **Time Signature**: The time signature of the track.
+    - **Genre**: The music genre of the track.
+    - **MusicBrainz Id**: The [MusicBrainz](https://musicbrainz.org/) identifier of the track.
+    - **Acoustid Id**: The [AcoustID](https://acoustid.org/) identifier of the current track (when available).
+* [jams](https://github.com/urinieto/harmonixset/tree/master/dataset/jams): Directory containing [JAMS](https://github.com/marl/jams/) files, one per track, with beats, downbeats, segmentation, and metadata.
 
 ## Experiment Results
 
