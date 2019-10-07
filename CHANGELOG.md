@@ -11,6 +11,7 @@ v1.1
     - `0079_dontyouwantme` 
     - `0326_yougotittherightstuff`
     - `0012_aroundtheworld`
+    - `0011_areyouexperienced`
 
 v1.0
 ====
