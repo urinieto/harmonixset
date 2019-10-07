@@ -8,10 +8,11 @@ v1.1
 - Added youtube URLs
 - Fixing some metadata associated with JAMS files.
 - Added correct metadata to:
-    - `0079_dontyouwantme` 
-    - `0326_yougotittherightstuff`
     - `0012_aroundtheworld`
     - `0011_areyouexperienced`
+    - `0015_babygotback`
+    - `0079_dontyouwantme` 
+    - `0326_yougotittherightstuff`
 
 v1.0
 ====
