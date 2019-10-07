@@ -13,7 +13,7 @@ from urllib.error import HTTPError
 
 METADATA_CSV = "../dataset/metadata.csv"
 OUT_CSV = "youtube_urls.csv"
-SLEEP = 3600
+SLEEP = 4000
 
 
 def process():
@@ -34,11 +34,14 @@ def process():
                 "http://www.youtube.com/results?" + query_string)
         search_results = re.findall(
             r'href=\"\/watch\?v=(.{11})', html_content.read().decode())
-        urls.append({
-            "URL": "http://www.youtube.com/watch?v=" + search_results[0],
-            "File": row["File"]
-        })
-        print(query, "http://www.youtube.com/watch?v=" + search_results[0])
+        try:
+            urls.append({
+                "URL": "http://www.youtube.com/watch?v=" + search_results[0],
+                "File": row["File"]
+            })
+            print(query, "http://www.youtube.com/watch?v=" + search_results[0])
+        except IndexError:
+            print("Warning: Can't get the URL for {}".format(query))
 
     # Save results
     urls_df = pd.DataFrame(urls)
