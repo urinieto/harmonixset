@@ -12,6 +12,7 @@ v1.1
     - `0011_areyouexperienced`
     - `0015_babygotback`
     - `0079_dontyouwantme` 
+    - `0322_wordup`
     - `0326_yougotittherightstuff`
 
 v1.0
