@@ -1,9 +1,11 @@
 """Script to download YouTube videos as mp3s.
+
 You should never use this.
+
 But if you do, you need the `youtube-dl` package,
 which can be obtained by:
 
-    pip install youtube-ld
+    pip install youtube-dl
 
 But really, you should never use any of this."""
 
