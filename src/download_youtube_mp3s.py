@@ -21,7 +21,7 @@ OUTPUT_DIR = "mp3s"
 def get_dl_cmd(url, file_id):
     return "youtube-dl {} -x --audio-format {} --audio-quality {} " \
         "-o {}".format(url, AUDIO_FORMAT, AUDIO_QUALITY,
-                       os.path.join(OUTPUT_DIR, file_id + ".mp3"))
+                       os.path.join(OUTPUT_DIR, file_id + ".%(ext)s"))
 
 
 if __name__ == "__main__":
