@@ -16,6 +16,7 @@ v1.1
     - `0079_dontyouwantme`
     - `0322_wordup`
     - `0326_yougotittherightstuff`
+- Added a requirements file.
 
 v1.0
 ====
