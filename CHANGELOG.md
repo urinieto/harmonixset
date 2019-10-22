@@ -11,7 +11,9 @@ v1.1
     - `0012_aroundtheworld`
     - `0011_areyouexperienced`
     - `0015_babygotback`
-    - `0079_dontyouwantme` 
+    - `0028_blackmagic`
+    - `0078_donttouchme`
+    - `0079_dontyouwantme`
     - `0322_wordup`
     - `0326_yougotittherightstuff`
 
