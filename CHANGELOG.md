@@ -14,6 +14,10 @@ v1.1
     - `0028_blackmagic`
     - `0078_donttouchme`
     - `0079_dontyouwantme`
+    - `0161_limelight`
+    - `0194_nomoretears`
+    - `0218_policyoftruth`
+    - `0277_thashiznit`
     - `0322_wordup`
     - `0326_yougotittherightstuff`
 - Added a requirements file.
