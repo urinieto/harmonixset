@@ -28,6 +28,7 @@ v1.1
     - `0843_omgalmighty`
     - `0998_youregonnamissthis`
 - Added a requirements file.
+- Added notebook to align YouTube audio to original one.
 
 v1.0
 ====
