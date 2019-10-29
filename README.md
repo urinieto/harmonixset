@@ -30,6 +30,8 @@ The full dataset can be found in the [dataset directory](https://github.com/urin
     - **MusicBrainz Id**: The [MusicBrainz](https://musicbrainz.org/) identifier of the track.
     - **Acoustid Id**: The [AcoustID](https://acoustid.org/) identifier of the current track (when available).
 * [jams](https://github.com/urinieto/harmonixset/tree/master/dataset/jams): Directory containing [JAMS](https://github.com/marl/jams/) files, one per track, with beats, downbeats, segmentation, and metadata (using JAMS version 0.3.3).
+* [YouTube URLs](https://github.com/urinieto/harmonixset/blob/master/dataset/youtube_urls.csv): URLs with the associated YouTube video.
+* [YouTube Alignment Scores](https://github.com/urinieto/harmonixset/blob/master/dataset/youtube_alignment_scores.csv): Alignment scores based on Dynamic Time Warping when aligning audio from YouTube videos to the original audio used to annotate the dataset.
 
 ## Experiment Results
 
@@ -56,6 +58,7 @@ A couple of Jupyter notebooks are also included:
 
 * [Dataset Analysis](https://github.com/urinieto/harmonixset/blob/master/notebooks/Dataset%20Analysis.ipynb): The plots of the original publication [1] were produced using this notebook, which employs the results discussed above.
 * [JAMS Creation](https://github.com/urinieto/harmonixset/blob/master/notebooks/JAMS%20Creation.ipynb): This notebook was used to generate the JAMS files of the Harmonix Set.
+* [Audio Alignment](https://github.com/urinieto/harmonixset/blob/master/notebooks/Audio%20Alignment.ipynb): Notebook containing the code to align the audio from YouTube to the original audio used for annotating the dataset. It uses DTW to generate the final audio files and get an alignment score to get a sense of how close the audio from YouTube is from the original one.
 
 
 
