@@ -20,6 +20,12 @@ v1.1
     - `0277_thashiznit`
     - `0322_wordup`
     - `0326_yougotittherightstuff`
+    - `0562_alreadygone`
+    - `0653_dynamite`
+    - `0681_flashinglights`
+    - `0725_hotncold`
+    - `0843_omgalmighty`
+    - `0998_youregonnamissthis`
 - Added a requirements file.
 
 v1.0
