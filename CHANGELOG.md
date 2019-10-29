@@ -20,6 +20,7 @@ v1.1
     - `0277_thashiznit`
     - `0322_wordup`
     - `0326_yougotittherightstuff`
+    - `0470_ours`
     - `0562_alreadygone`
     - `0653_dynamite`
     - `0681_flashinglights`
