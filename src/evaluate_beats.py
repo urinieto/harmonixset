@@ -110,7 +110,7 @@ def main(results_dir=None):
     poss = [[1, 3, 5, 7, 9],
             [0, 2, 4, 6, 8]]
     colors = ['purple', 'turquoise']
-    idx = 0
+    idx = 1
     fig, ax = plt.subplots()
     for result_type, result_algs in plotting_results.items():
         c1 = colors[idx]
@@ -122,7 +122,7 @@ def main(results_dir=None):
                 whiskerprops=dict(color=c1),
                 flierprops=dict(color=c1, markeredgecolor=c1),
                 medianprops=dict(color=c1))
-        idx += 1
+        idx -= 1
 
     #
     # Format plot and save to disk
