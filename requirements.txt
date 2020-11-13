@@ -3,3 +3,8 @@ madmom==0.16.1
 librosa==0.7.0
 mutagen==1.42.0
 pandas==0.24.2
+numba==0.48
+Cython==0.29.21
+argparse~=1.4.0
+tqdm~=4.51.0
+joblib~=0.14.1
