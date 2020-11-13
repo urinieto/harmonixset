@@ -6,7 +6,6 @@ import json
 from joblib import Parallel, delayed
 
 INPUT_DIR = "harmonix_mp3s"
-INPUT_DIR = "/Users/onieto/Desktop/mp3s"
 OUTPUT_DIR = "audio_features"
 OUT_JSON = "info.json"
 N_JOBS = 12
