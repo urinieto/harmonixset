@@ -1,3 +1,8 @@
+"""Script to compute audio features from the
+original Harmonix audio files.
+"""
+
+
 import os
 import glob
 import librosa
