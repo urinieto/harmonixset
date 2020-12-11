@@ -1,3 +1,8 @@
+"""Script to compute audio features from the
+original Harmonix audio files.
+"""
+
+
 import os
 import glob
 import librosa
@@ -5,7 +10,7 @@ import numpy as np
 import json
 from joblib import Parallel, delayed
 
-INPUT_DIR = "harmonix_mp3s"
+INPUT_DIR = "mp3s"
 OUTPUT_DIR = "audio_features"
 OUT_JSON = "info.json"
 N_JOBS = 12
