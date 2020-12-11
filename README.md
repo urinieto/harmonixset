@@ -6,9 +6,16 @@ Beats, downbeats, and functional structural annotations for 912 Pop tracks.
 
 This repository contains human annotated labels for 912 Western Pop music tracks, gathered by [Harmonix](https://www.harmonixmusic.com/games).
 
-## Data Overview
+## Audio Data (UPDATED December 2020):
 
-The full dataset can be found in the [dataset directory](https://github.com/urinieto/harmonixset/tree/master/dataset), which contains the following:
+The _mel-scale spectrograms_ for the entire dataset can be downloaded from Dropbox: [Harmonix_melspecs.tgz](https://www.dropbox.com/s/zxnqlx0hxz0lsyc/Harmonix_melspecs.tgz?dl=0) (~1.2GB).
+
+Information about the spectrograms is included in the `info.json` file within the compressed file.
+Users must agree to the License included before using these data.
+
+## Annotation Data Overview
+
+The annotations can be found in the [dataset directory](https://github.com/urinieto/harmonixset/tree/master/dataset), which contains the following:
 
 * [beats_and_downbeats](https://github.com/urinieto/harmonixset/tree/master/dataset/beats_and_downbeats): Directory with a tab-separated file for each track in the dataset, with the following three fields per line containing beats and downbeats: 
     - `beat_time_stamp`: The placement of the beat in seconds (and downbeat, if `beat_position_in_bar` = 1).
@@ -59,7 +66,6 @@ A couple of Jupyter notebooks are also included:
 * [Dataset Analysis](https://github.com/urinieto/harmonixset/blob/master/notebooks/Dataset%20Analysis.ipynb): The plots of the original publication [1] were produced using this notebook, which employs the results discussed above.
 * [JAMS Creation](https://github.com/urinieto/harmonixset/blob/master/notebooks/JAMS%20Creation.ipynb): This notebook was used to generate the JAMS files of the Harmonix Set.
 * [Audio Alignment](https://github.com/urinieto/harmonixset/blob/master/notebooks/Audio%20Alignment.ipynb): Notebook containing the code to align the audio from YouTube to the original audio used for annotating the dataset. It uses DTW to generate the final audio files and get an alignment score to get a sense of how close the audio from YouTube is from the original one.
-
 
 
 ## Cite
