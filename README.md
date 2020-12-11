@@ -6,9 +6,15 @@ Beats, downbeats, and functional structural annotations for 912 Pop tracks.
 
 This repository contains human annotated labels for 912 Western Pop music tracks, gathered by [Harmonix](https://www.harmonixmusic.com/games).
 
-## Data Overview
+## Audio Data (UPDATED December 2020):
 
-The full dataset can be found in the [dataset directory](https://github.com/urinieto/harmonixset/tree/master/dataset), which contains the following:
+The _mel-scale spectrograms_ for the entire dataset can be downloaded from [here]() (1.28GB).
+Information about the spectrograms is included in the `info.json` file within the compressed file.
+Users must agree to the License included before using these data.
+
+## Annotation Data Overview
+
+The annotations can be found in the [dataset directory](https://github.com/urinieto/harmonixset/tree/master/dataset), which contains the following:
 
 * [beats_and_downbeats](https://github.com/urinieto/harmonixset/tree/master/dataset/beats_and_downbeats): Directory with a tab-separated file for each track in the dataset, with the following three fields per line containing beats and downbeats: 
     - `beat_time_stamp`: The placement of the beat in seconds (and downbeat, if `beat_position_in_bar` = 1).
