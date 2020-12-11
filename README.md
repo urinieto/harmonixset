@@ -8,7 +8,7 @@ This repository contains human annotated labels for 912 Western Pop music tracks
 
 ## Audio Data (UPDATED December 2020):
 
-The _mel-scale spectrograms_ for the entire dataset can be downloaded from Dropbox: [Harmonix_melspecs.tgz](https://github.com/urinieto/harmonixset) (~1.2GB).
+The _mel-scale spectrograms_ for the entire dataset can be downloaded from Dropbox: [Harmonix_melspecs.tgz](https://www.dropbox.com/s/zxnqlx0hxz0lsyc/Harmonix_melspecs.tgz?dl=0) (~1.2GB).
 
 Information about the spectrograms is included in the `info.json` file within the compressed file.
 Users must agree to the License included before using these data.
