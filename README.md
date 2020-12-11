@@ -8,7 +8,8 @@ This repository contains human annotated labels for 912 Western Pop music tracks
 
 ## Audio Data (UPDATED December 2020):
 
-The _mel-scale spectrograms_ for the entire dataset can be downloaded from [here]() (1.28GB).
+The _mel-scale spectrograms_ for the entire dataset can be downloaded from Dropbox: [Harmonix_melspecs.tgz](https://github.com/urinieto/harmonixset) (~1.2GB).
+
 Information about the spectrograms is included in the `info.json` file within the compressed file.
 Users must agree to the License included before using these data.
 
@@ -65,7 +66,6 @@ A couple of Jupyter notebooks are also included:
 * [Dataset Analysis](https://github.com/urinieto/harmonixset/blob/master/notebooks/Dataset%20Analysis.ipynb): The plots of the original publication [1] were produced using this notebook, which employs the results discussed above.
 * [JAMS Creation](https://github.com/urinieto/harmonixset/blob/master/notebooks/JAMS%20Creation.ipynb): This notebook was used to generate the JAMS files of the Harmonix Set.
 * [Audio Alignment](https://github.com/urinieto/harmonixset/blob/master/notebooks/Audio%20Alignment.ipynb): Notebook containing the code to align the audio from YouTube to the original audio used for annotating the dataset. It uses DTW to generate the final audio files and get an alignment score to get a sense of how close the audio from YouTube is from the original one.
-
 
 
 ## Cite
