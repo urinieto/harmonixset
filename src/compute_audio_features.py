@@ -42,8 +42,8 @@ def compute_melspecs(audio):
                                           fmax=MEL_FMAX)
 
 
-def compute_all_librosa_features(mp3_file, output_dir):
-    """Computes all the audio features with librosa"""
+def compute_all_features(mp3_file, output_dir):
+    """Computes all the audio features."""
     # Decode and read mp3
     audio, _ = librosa.load(mp3_file, sr=SR)
 
@@ -69,8 +69,8 @@ def save_params(output_dir):
         "MEL_FMIN": MEL_FMIN,
         "MEL_FMAX": MEL_FMAX
     }
-    with open(out_json, 'w') as f:
-        json.dump(out_dict, f, indent=4)
+    with open(out_json, 'w') as fp:
+        json.dump(out_dict, fp, indent=4)
 
 
 if __name__ == "__main__":
@@ -107,7 +107,7 @@ if __name__ == "__main__":
 
     # Compute features for each mp3 in parallel
     Parallel(n_jobs=args.n_jobs)(
-        delayed(compute_all_librosa_features)(mp3_file, args.output_dir)
+        delayed(compute_all_features)(mp3_file, args.output_dir)
         for mp3_file in mp3s)
 
     # Save parameters
