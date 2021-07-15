@@ -72,10 +72,11 @@ def save_params(output_dir):
     """Saves the parameters to a JSON file."""
     out_json = os.path.join(output_dir, OUT_JSON)
     out_dict = {
-        "librosa_version": madmom.__version__,
+        "madmom_version": madmom.__version__,
         "numpy_version": np.__version__,
         "SR": SR,
         "FRAME_SIZES": FRAME_SIZES,
+        "NUM_BANDS": NUM_BANDS,
         "FPS": FPS,
         "FMIN": FMIN,
         "FMAX": FMAX,
