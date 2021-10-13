@@ -1,6 +1,22 @@
 Harmonix Set CHANGELOG
 ======================
 
+v1.2
+====
+
+- Fixed label typos for the following files:
+    - `0113_giveituptome`
+    - `0156_lastnight`
+    - `0348_blackout`
+    - `0528_werunthenight`
+    - `0780_letmebereal`
+    - `0846_onelove`
+    - `0857_paralyzer`
+    - `0918_starstrukk`
+    - `0956_tonightimgettingoveryou`
+    - `0981_whenyouregone`
+
+
 v1.1
 ====
 
